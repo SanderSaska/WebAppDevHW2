@@ -74,6 +74,7 @@ h3 ~ p {
     display: flex;
     flex-direction:row;
     align-items: top;
+    padding: 5px;
 }
 
 .UserDate :last-child {
@@ -112,7 +113,19 @@ h3 ~ p {
 
 .user_icon {
     height: 50px;
+    width: 50px;
     padding-right: 10px;
+}
+
+.like {
+    height: 30px;
+    width: 30px;
+}
+
+.image {
+    max-width: 50%;
+    max-height: auto;
+    align-self: center;
 }
 
 .Posting {
