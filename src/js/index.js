@@ -1,4 +1,7 @@
 window.onload = function() {
+    // Fetch from URL
+    // fetch('https://api.npoint.io/6395d40491d7ebc4115a')
+    // Fetch from file
     fetch('./res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
