@@ -14,21 +14,21 @@ div p {
     font-size: 0.925em;
 }
 
-article + section {
+article+section {
     display: flex;
     flex-direction: row;
 }
 
-main > article {
+main>article {
     border-radius: 10px;
     background-color: rgb(220, 220, 220);
     display: flex;
     flex-direction: column;
-    margin:5px;
-    padding:10px;
+    margin: 5px;
+    padding: 10px;
 }
 
-h3 ~ p {
+h3~p {
     font-size: 1.05em;
 }
 
@@ -40,7 +40,7 @@ h3 ~ p {
 }
 
 .Header {
-    border-radius:10px;
+    border-radius: 10px;
     font-size: 2em;
     font-weight: bold;
     background-color: rgb(220, 220, 220);
@@ -53,7 +53,7 @@ h3 ~ p {
 
 
 .Header :last-child {
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .Login {
@@ -72,13 +72,13 @@ h3 ~ p {
 
 .UserDate {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: top;
     padding: 5px;
 }
 
 .UserDate :last-child {
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .Account {
@@ -89,7 +89,7 @@ h3 ~ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:10px;
+    margin-top: 10px;
     margin-bottom: 60px;
 }
 
@@ -97,17 +97,17 @@ h3 ~ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:1;
+    flex: 1;
     align-items: center;
 }
 
 .Footer {
-    bottom:0px;
-    width:99vw;
+    bottom: 0px;
+    width: 99vw;
     border-radius: 10px;
-    display:flex;
+    display: flex;
     background-color: rgb(220, 220, 220);
-    position:fixed;
+    position: fixed;
     justify-content: center;
 }
 
@@ -135,7 +135,7 @@ h3 ~ p {
     justify-content: center;
 }
 
-.PostBody{
+.PostBody {
     padding-right: 10px;
 }
 
@@ -194,7 +194,7 @@ input[type="fileUpload"]::-webkit-file-upload-button {
 
 }
 
-.dropbtn {
+.dropimg {
     color: white;
     padding: 16px;
     font-size: 20px;
@@ -206,6 +206,16 @@ input[type="fileUpload"]::-webkit-file-upload-button {
     display: inline-block;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 1vw;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -213,13 +223,6 @@ input[type="fileUpload"]::-webkit-file-upload-button {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn
-
-
-
-
-
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
